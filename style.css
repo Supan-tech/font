@@ -1,0 +1,62 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Moul;
+  src: url(./fonts/Moul.ttf);
+}
+
+@font-face {
+  font-family: Bokor;
+  src: url(./fonts/Bokor.ttf);
+}
+
+@font-face {
+  font-family: Moulpali;
+  src: url(./fonts/Moulpali.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(./fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(./fonts/Rubik-Regular.ttf);
+}
+
+.Moul{
+  font-family: 'Moul';
+}
+
+.MoulPali{
+  font-family: 'Moulpali';
+}
+
+.Bokor{
+  font-family: 'Bokor';
+}
+
+.Rubik{
+  font-family: 'Rubik';
+  text-transform: uppercase;
+}
+
+.Roboto{
+  font-family: 'Roboto';
+  text-transform: lowercase;
+}
+
+.Quicksand{
+  font-family: 'Quicksand';
+  text-transform: capitalize;
+}
